@@ -1,5 +1,3 @@
-// Just noticed accessing localStorage is banned from codepen, so disabling saving theme to localStorage
-
 const deg = 6;
 const hour = document.querySelector(".hour");
 const min = document.querySelector(".min");
@@ -16,7 +14,7 @@ const setClock = () => {
   sec.style.transform = `rotateZ(${ss}deg)`;
 };
 
-// first time
+
 setClock();
 // Update every 1000 ms
 setInterval(setClock, 1000);
